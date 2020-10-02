@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home work 2</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<header class="main_header">
+    <div class="container">
+        <nav class="row nav_row">
+            <a class="col-3 nav_col" href="javascript:void(0);">Категории</a>
+            <a class="col-3 nav_col" href="javascript:void(0);">Новости</a>
+            <a class="col-3 nav_col link_active" href="javascript:void(0);">Добавить новость</a>
+            <a class="col-3 nav_col" href="javascript:void(0);">Настройки</a>
+        </nav>
+    </div>
+</header>
+<div class="main">
+    <div class="container">
+        <form action="" class="form">
+            <div class="row">
+                <div class="col-12">
+                    <div class="button_cont">
+                        <button type="button" class="save">Сохранить</button>
+                        <button type="button" class="save_add">Сохранить и Добавить</button>
+                        <button type="submit" class="save_close">Сохранить и Закрыть</button>
+                        <button type="reset" class="close">Закрыть</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8 form_col">
+                    <div class="edit_cont">
+                        <div class="news_name_cont edit_cont_inner">
+                            <span class="bold">Название новости</span>
+                            <label>
+                                <input type="text">
+                            </label>
+                        </div>
+                        <div class="alias_cont edit_cont_inner">
+                            <span class="regular">Алиас</span>
+                            <label>
+                                <input type="text">
+                            </label>
+                        </div>
+                        <div class="anons_cont edit_cont_inner">
+                            <span class="bold">Анонс</span>
+                            <label>
+                                <textarea name="anons" cols="30" rows="10"></textarea>
+                            </label>
+                        </div>
+                        <div class="text_cont edit_cont_inner">
+                            <span class="bold">Текст</span>
+                            <label>
+                                <textarea name="text" cols="30" rows="10"></textarea>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 form_col">
+                    <div class="setting_cont">
+                        <div class="photo_cont">
+                            <span class="bold">Фото</span>
+                            <label>
+                                <input type="file">
+                            </label>
+                        </div>
+                        <div class="slider_cont">
+                            <span class="bold">Слайдер</span>
+                            <label class="select_label">
+                                <select>
+                                    <option value="1">Не активна</option>
+                                    <option value="2">Активна</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div class="main_news_cont">
+                            <span class="bold">Основные новости</span>
+                            <label class="select_label">
+                                <select>
+                                    <option value="1">Не активна</option>
+                                    <option value="2">Активна</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div class="activity_cont">
+                            <span class="bold">Активность</span>
+                            <label class="select_label">
+                                <select>
+                                    <option value="1">Не активна</option>
+                                    <option value="2">Активна</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div class="categories_cont">
+                            <span class="bold">Категория</span>
+                            <label class="select_label">
+                                <select>
+                                    <option value="1">Политика</option>
+                                    <option value="2">Спорт</option>
+                                    <option value="3">Кино</option>
+                                    <option value="4">Актуальное</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div class="date_cont">
+                            <span class="regular">Дата создания новости</span>
+                            <label>
+                                <input type="datetime-local" id="date" value="">
+                            </label>
+                        </div>
+                        <div class="views_cont">
+                            <span class="regular">Кол-во просмотров</span>
+                            <label>
+                                <input type="text">
+                            </label>
+                        </div>
+                        <div class="author_cont">
+                            <span class="regular">Автор</span>
+                            <label>
+                                <input type="text">
+                            </label>
+                        </div>
+                        <div class="tags_cont">
+                            <span class="regular">Теги</span>
+                            <label>
+                                <input type="text">
+                            </label>
+                        </div>
+                        <div class="keywords_cont">
+                            <span class="regular">Keywords meta</span>
+                            <label>
+                                <input type="text">
+                            </label>
+                        </div>
+                        <div class="description_cont">
+                            <span class="regular">Description meta</span>
+                            <label>
+                                <textarea name="" cols="30" rows="6"></textarea>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="next_page row">
+            <a href="var2.html" class="next_page_link">Следующая страница</a>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-3.3.1.min.js" defer></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>

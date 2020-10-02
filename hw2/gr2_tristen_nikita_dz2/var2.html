@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home work 2</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<header class="main_header">
+    <div class="container">
+        <nav class="row nav_row">
+            <a class="col-3 nav_col" href="javascript:void(0);">Категории</a>
+            <a class="col-3 nav_col" href="javascript:void(0);">Новости</a>
+            <a class="col-3 nav_col link_active" href="javascript:void(0);">Добавить новость</a>
+            <a class="col-3 nav_col" href="javascript:void(0);">Настройки</a>
+        </nav>
+    </div>
+</header>
+<div class="main">
+    <div class="container">
+        <form action="" class="form">
+            <div class="row button_row">
+                <div class="col-12">
+                    <div class="button_cont">
+                        <button type="button" class="save">Сохранить</button>
+                        <button type="button" class="save_add">Сохранить и Добавить</button>
+                        <button type="button" class="save_close">Сохранить и Закрыть</button>
+                        <button type="button" class="close">Закрыть</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row edit_row">
+                <div class="col-8 form_col">
+                    <div class="edit_cont">
+                        <div class="news_name_cont edit_cont_inner">
+                            <span class="bold">Название новости</span>
+                            <label>
+                                <input type="text">
+                            </label>
+                        </div>
+                        <div class="alias_cont edit_cont_inner">
+                            <span>Алиас</span>
+                            <label>
+                                <input type="text">
+                            </label>
+                        </div>
+                        <div class="anons_cont edit_cont_inner">
+                            <span class="bold">Анонс</span>
+                            <label>
+                                <textarea name="anons" cols="30" rows="10"></textarea>
+                            </label>
+                        </div>
+                        <div class="text_cont edit_cont_inner">
+                            <span class="bold">Текст</span>
+                            <label>
+                                <textarea name="text" cols="30" rows="10"></textarea>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 form_col">
+                    <div class="setting_cont radio_setting_cont">
+                        <div class="photo_cont">
+                            <span class="bold">Фото</span>
+                            <label>
+                                <input type="file">
+                            </label>
+                        </div>
+                        <div class="slider_cont rs_inner">
+                            <span class="bold">Слайдер</span>
+                            <label class="radio_label">
+                                <input type="radio" value="0" name="slider">
+                                <span class="radio_span">Не активна</span>
+                            </label>
+                            <label class="radio_label">
+                                <input type="radio" value="1" name="slider">
+                                <span class="radio_span">Активна</span>
+                            </label>
+                        </div>
+                        <div class="main_news_cont rs_inner">
+                            <span class="bold">Основные новости</span>
+                            <label class="radio_label">
+                                <input type="radio" value="0" name="news">
+                                <span class="radio_span">Не активна</span>
+                            </label>
+                            <label class="radio_label">
+                                <input type="radio" value="1" name="news">
+                                <span class="radio_span">Активна</span>
+                            </label>
+                        </div>
+                        <div class="activity_cont rs_inner">
+                            <span class="bold">Активность</span>
+                            <label class="radio_label">
+                                <input type="radio" value="1" name="activity">
+                                <span class="radio_span">Не активна</span>
+                            </label>
+                            <label class="radio_label">
+                                <input type="radio" value="0" name="activity">
+                                <span class="radio_span">Активна</span>
+                            </label>
+                        </div>
+                        <div class="categories_cont rs_inner">
+                            <span class="bold">Категория</span>
+                            <label class="select_label">
+                                <input type="checkbox" value="1">
+                                <span class="check_span">Политика</span>
+                            </label>
+                            <label class="select_label">
+                                <input type="checkbox" value="2">
+                                <span class="check_span">Кино</span>
+                            </label>
+                            <label class="select_label">
+                                <input type="checkbox" value="3">
+                                <span class="check_span">Спорт</span>
+                            </label>
+                            <label class="select_label">
+                                <input type="checkbox" value="4">
+                                <span class="check_span">Актуальное</span>
+                            </label>
+                        </div>
+                        <div class="date_cont">
+                            <span>Дата создания новости</span>
+                            <label>
+                                <input type="datetime-local" id="date" value="">
+                            </label>
+                        </div>
+                        <div class="views_cont">
+                            <span>Кол-во просмотров</span>
+                            <label>
+                                <input type="text">
+                            </label>
+                        </div>
+                        <div class="author_cont">
+                            <span>Автор</span>
+                            <label>
+                                <input type="text">
+                            </label>
+                        </div>
+                        <div class="tags_cont">
+                            <span>Теги</span>
+                            <label>
+                                <input type="text">
+                            </label>
+                        </div>
+                        <div class="keywords_cont">
+                            <span>Keywords meta</span>
+                            <label>
+                                <input type="text">
+                            </label>
+                        </div>
+                        <div class="description_cont">
+                            <span>Description meta</span>
+                            <label>
+                                <textarea name="" cols="30" rows="6"></textarea>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="next_page row">
+            <a href="index.html" class="next_page_link">Предыдущая страница</a>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-3.3.1.min.js" defer></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>
