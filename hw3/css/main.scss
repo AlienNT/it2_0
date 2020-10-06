@@ -7,7 +7,6 @@
   list-style: none;
   color: #353535;
   border: none;
-  //transition: linear all 0.1s;
 }
 
 .container {
@@ -19,12 +18,15 @@
     display: flex;
   }
 }
-li,span,input,label,button {
+
+li, span, input, label, button {
   transition: all linear 0.1s;
+
   * {
 
   }
 }
+
 .header {
   width: 100%;
   z-index: 1000;
@@ -151,20 +153,23 @@ li,span,input,label,button {
       padding: 24px 0;
       flex: auto;
       border: 1px solid rgba(0, 0, 0, 0);
-      .first_level_content  {
+
+      .first_level_content {
         height: fit-content;
         border-right: 1px solid #727272;
-
       }
+
       &:hover {
         border: 1px solid #d6d6d7;
         background: #fdfdfe;
+
         .first_level_content {
-            border-right: 1px solid rgba(0, 0, 0, 0);
+          border-right: 1px solid rgba(0, 0, 0, 0);
         }
       }
+
       &:last-of-type {
-        .first_level_content  {
+        .first_level_content {
           border: none;
         }
       }
@@ -273,6 +278,11 @@ li,span,input,label,button {
         }
       }
     }
+  }
+
+  .popup_container_no_translate {
+    right: 0;
+    width: 91%;
   }
 
   .first_level_container {
