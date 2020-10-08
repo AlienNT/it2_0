@@ -200,6 +200,13 @@
     color: #061058;
 
   }
+
+  a {
+    &:hover {
+      color: #122ad9;
+    }
+  }
+
 }
 
 .sign-in {
@@ -230,6 +237,7 @@
       margin-left: auto;
     }
   }
+
   &:hover {
     background: rgb(1, 105, 78);
     background: -o-linear-gradient(top, rgb(1, 103, 77) 0%, rgb(1, 153, 113) 21%, rgb(1, 152, 112) 96%);
@@ -450,6 +458,7 @@
     > * {
       margin: auto 0;
     }
+
     &:hover {
       background: rgb(217, 59, 85);
       background: -webkit-gradient(linear, left top, left bottom, from(rgb(217, 59, 85)), color-stop(26%, rgb(238, 89, 113)), color-stop(90%, rgb(231, 87, 110)), color-stop(94%, rgb(219, 59, 85)));
@@ -865,5 +874,4 @@
     transform: scale(0.95);
   }
 }
-
 

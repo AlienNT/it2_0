@@ -192,6 +192,10 @@
     color: #061058;
 }
 
+.header__contacts a:hover {
+    color: #122ad9;
+}
+
 .sign-in {
     padding-left: 22px;
     padding-right: 18px;
