@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../fonts/gothampro/GothamPro-BlackItalic.eot');
+    src: local('Gotham Pro Black Italic'), local('GothamPro-BlackItalic'),
+    url('../fonts/gothampro/GothamPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/gothampro/GothamPro-BlackItalic.woff') format('woff'),
+    url('../fonts/gothampro/GothamPro-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../fonts/gothampro/GothamPro-Bold.eot');
+    src: local('Gotham Pro Bold'), local('GothamPro-Bold'),
+    url('../fonts/gothampro/GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/gothampro/GothamPro-Bold.woff') format('woff'),
+    url('../fonts/gothampro/GothamPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../fonts/gothampro/GothamPro.eot');
+    src: local('Gotham Pro'), local('GothamPro'),
+    url('../fonts/gothampro/GothamPro.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/gothampro/GothamPro.woff') format('woff'),
+    url('../fonts/gothampro/GothamPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: local('Akrobat ExtraLight'), local('Akrobat-ExtraLight'), url('../fonts/akrobat/Akrobatextralight.woff2') format('woff2'), url('../fonts/akrobat/Akrobatextralight.woff') format('woff'), url('../fonts/akrobat/Akrobatextralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: local('Akrobat Light'), local('Akrobat-Light'), url('../fonts/akrobat/Akrobatlight.woff2') format('woff2'), url('../fonts/akrobat/Akrobatlight.woff') format('woff'), url('../fonts/akrobat/Akrobatlight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: local('Akrobat Thin'), local('Akrobat-Thin'), url('../fonts/akrobat/Akrobatthin.woff2') format('woff2'), url('../fonts/akrobat/Akrobatthin.woff') format('woff'), url('../fonts/akrobat/Akrobatthin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: local('Akrobat'), local('Akrobat-Regular'), url('../fonts/akrobat/Akrobat.woff2') format('woff2'), url('../fonts/akrobat/Akrobat.woff') format('woff'), url('../fonts/akrobat/Akrobat.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: local('Akrobat SemiBold'), local('Akrobat-SemiBold'), url('../fonts/akrobat/Akrobatsemibold.woff2') format('woff2'), url('../fonts/akrobat/Akrobatsemibold.woff') format('woff'), url('../fonts/akrobat/Akrobatsemibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: local('Akrobat Bold'), local('Akrobat-Bold'), url('../fonts/akrobat/Akrobatbold.woff2') format('woff2'), url('../fonts/akrobat/Akrobatbold.woff') format('woff'), url('../fonts/akrobat/Akrobatbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}

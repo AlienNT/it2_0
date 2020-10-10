@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f9dfc1e0-9b0d-406b-9b67-24d1750f06bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/slick.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw4/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1idKckbEooceqoF2VtqWUxvQBdc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nickt\Desktop\IT_2.0\it2_0\hw5\css" />
+      <recent name="C:\Users\nickt\Desktop\IT_2.0\it2_0\hw5\js" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/hw5/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f9dfc1e0-9b0d-406b-9b67-24d1750f06bf" name="Default Changelist" comment="" />
+      <created>1602232109379</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602232109379</updated>
+      <workItem from="1602232110732" duration="81953000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="629" y="298" key="EditFileWatcherDialog" timestamp="1602232160158">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="629" y="298" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602232160158" />
+    <state width="914" height="41" key="GridCell.Tab.0.bottom" timestamp="1602340911810">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="41" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602340911810" />
+    <state width="914" height="41" key="GridCell.Tab.0.center" timestamp="1602340911810">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="41" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602340911810" />
+    <state width="914" height="41" key="GridCell.Tab.0.left" timestamp="1602340911810">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="41" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602340911810" />
+    <state width="914" height="41" key="GridCell.Tab.0.right" timestamp="1602340911810">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="41" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602340911810" />
+    <state width="914" height="41" key="GridCell.Tab.1.bottom" timestamp="1602340911810">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="41" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602340911810" />
+    <state width="914" height="41" key="GridCell.Tab.1.center" timestamp="1602340911810">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="41" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602340911810" />
+    <state width="914" height="41" key="GridCell.Tab.1.left" timestamp="1602340911810">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="41" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602340911810" />
+    <state width="914" height="41" key="GridCell.Tab.1.right" timestamp="1602340911810">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="41" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602340911810" />
+    <state width="914" height="41" key="GridCell.Tab.2.bottom" timestamp="1602340911810">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="41" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602340911810" />
+    <state width="914" height="41" key="GridCell.Tab.2.center" timestamp="1602340911810">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="41" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602340911810" />
+    <state width="914" height="41" key="GridCell.Tab.2.left" timestamp="1602340911810">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="41" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602340911810" />
+    <state width="914" height="41" key="GridCell.Tab.2.right" timestamp="1602340911810">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="41" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602340911810" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1602238347965">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602238347965" />
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602232172633">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602232172633" />
+    <state x="1147" y="227" width="585" height="592" key="find.popup" timestamp="1602352148740">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1147" y="227" width="585" height="592" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602352148740" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/hw5$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1602321311185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
