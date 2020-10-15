@@ -20,17 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57e5011f-af25-4159-9d53-4e2e2862239e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/b3347ed66a8bc8c087d6dba45ad6f5be64fddd65/main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/b3347ed66a8bc8c087d6dba45ad6f5be64fddd65/main.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/st_8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +85,7 @@
       <workItem from="1602576235342" duration="15341000" />
       <workItem from="1602661629601" duration="12000" />
       <workItem from="1602661651916" duration="3665000" />
-      <workItem from="1602748843368" duration="15231000" />
+      <workItem from="1602748843368" duration="15570000" />
     </task>
     <servers />
   </component>
@@ -182,5 +173,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1147" y="227" width="585" height="592" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602760062341" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1602764702401">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602764702401" />
   </component>
 </project>
