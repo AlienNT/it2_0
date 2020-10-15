@@ -1284,6 +1284,9 @@ html {
   .content_row {
     max-width: 1320px;
     margin: 0 auto 96px;
+    @media all and (max-width: 768px){
+      margin: 0 auto;
+    }
 
     &:first-of-type, &:last-of-type {
       margin: 0 auto;

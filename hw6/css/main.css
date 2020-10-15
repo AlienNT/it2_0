@@ -1282,6 +1282,12 @@ html {
     margin: 0 auto 96px;
 }
 
+@media all and (max-width: 768px) {
+    .content_section-7 .content_row {
+        margin: 0 auto;
+    }
+}
+
 .content_section-7 .content_row:first-of-type, .content_section-7 .content_row:last-of-type {
     margin: 0 auto;
 }
