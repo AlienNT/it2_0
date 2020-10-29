@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Solomon Sans';
+    src: url('SolomonSans-Regular.eot');
+    src: local('Solomon Sans Regular'), local('SolomonSans-Regular'),
+        url('SolomonSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SolomonSans-Regular.woff2') format('woff2'),
+        url('SolomonSans-Regular.woff') format('woff'),
+        url('SolomonSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Solomon Sans';
+    src: url('SolomonSans-Light.eot');
+    src: local('Solomon Sans Light'), local('SolomonSans-Light'),
+        url('SolomonSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('SolomonSans-Light.woff2') format('woff2'),
+        url('SolomonSans-Light.woff') format('woff'),
+        url('SolomonSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Solomon Sans SemBd';
+    src: url('SolomonSans-SemiBoldItalic.eot');
+    src: local('Solomon Sans Semi Bold Italic'), local('SolomonSans-SemiBoldItalic'),
+        url('SolomonSans-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('SolomonSans-SemiBoldItalic.woff2') format('woff2'),
+        url('SolomonSans-SemiBoldItalic.woff') format('woff'),
+        url('SolomonSans-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Solomon Sans Med';
+    src: url('SolomonSans-MediumItalic.eot');
+    src: local('Solomon Sans Medium Italic'), local('SolomonSans-MediumItalic'),
+        url('SolomonSans-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('SolomonSans-MediumItalic.woff2') format('woff2'),
+        url('SolomonSans-MediumItalic.woff') format('woff'),
+        url('SolomonSans-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Solomon Sans';
+    src: url('SolomonSans-Black.eot');
+    src: local('Solomon Sans Black'), local('SolomonSans-Black'),
+        url('SolomonSans-Black.eot?#iefix') format('embedded-opentype'),
+        url('SolomonSans-Black.woff2') format('woff2'),
+        url('SolomonSans-Black.woff') format('woff'),
+        url('SolomonSans-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Solomon Sans SemBd';
+    src: url('SolomonSans-SemiBold.eot');
+    src: local('Solomon Sans Semi Bold'), local('SolomonSans-SemiBold'),
+        url('SolomonSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('SolomonSans-SemiBold.woff2') format('woff2'),
+        url('SolomonSans-SemiBold.woff') format('woff'),
+        url('SolomonSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Solomon Sans';
+    src: url('SolomonSans-ThinItalic.eot');
+    src: local('Solomon Sans Thin Italic'), local('SolomonSans-ThinItalic'),
+        url('SolomonSans-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('SolomonSans-ThinItalic.woff2') format('woff2'),
+        url('SolomonSans-ThinItalic.woff') format('woff'),
+        url('SolomonSans-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Solomon Sans';
+    src: url('SolomonSans-Bold.eot');
+    src: local('Solomon Sans Bold'), local('SolomonSans-Bold'),
+        url('SolomonSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('SolomonSans-Bold.woff2') format('woff2'),
+        url('SolomonSans-Bold.woff') format('woff'),
+        url('SolomonSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Solomon Sans';
+    src: url('SolomonSans-Thin.eot');
+    src: local('Solomon Sans Thin'), local('SolomonSans-Thin'),
+        url('SolomonSans-Thin.eot?#iefix') format('embedded-opentype'),
+        url('SolomonSans-Thin.woff2') format('woff2'),
+        url('SolomonSans-Thin.woff') format('woff'),
+        url('SolomonSans-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Solomon Sans';
+    src: url('SolomonSans-Italic.eot');
+    src: local('Solomon Sans Italic'), local('SolomonSans-Italic'),
+        url('SolomonSans-Italic.eot?#iefix') format('embedded-opentype'),
+        url('SolomonSans-Italic.woff2') format('woff2'),
+        url('SolomonSans-Italic.woff') format('woff'),
+        url('SolomonSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Solomon Sans Med';
+    src: url('SolomonSans-Medium.eot');
+    src: local('Solomon Sans Medium'), local('SolomonSans-Medium'),
+        url('SolomonSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('SolomonSans-Medium.woff2') format('woff2'),
+        url('SolomonSans-Medium.woff') format('woff'),
+        url('SolomonSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Solomon Sans';
+    src: url('SolomonSans-BlackItalic.eot');
+    src: local('Solomon Sans Black Italic'), local('SolomonSans-BlackItalic'),
+        url('SolomonSans-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('SolomonSans-BlackItalic.woff2') format('woff2'),
+        url('SolomonSans-BlackItalic.woff') format('woff'),
+        url('SolomonSans-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Solomon Sans';
+    src: url('SolomonSans-LightItalic.eot');
+    src: local('Solomon Sans Light Italic'), local('SolomonSans-LightItalic'),
+        url('SolomonSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('SolomonSans-LightItalic.woff2') format('woff2'),
+        url('SolomonSans-LightItalic.woff') format('woff'),
+        url('SolomonSans-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Solomon Sans';
+    src: url('SolomonSans-BoldItalic.eot');
+    src: local('Solomon Sans Bold Italic'), local('SolomonSans-BoldItalic'),
+        url('SolomonSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('SolomonSans-BoldItalic.woff2') format('woff2'),
+        url('SolomonSans-BoldItalic.woff') format('woff'),
+        url('SolomonSans-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
