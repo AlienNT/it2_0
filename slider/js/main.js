@@ -30,21 +30,37 @@ let sliderLength = slides.length
 // }
 
 //
-arrowPrev[0].onclick = function () {
-    if (slidingPrev  === 0) {
+
+
+
+
+
+
+
+
+let onClickPrev = arrowPrev[0].onclick = function slidePrev() {
+    if (slidingPrev === 0) {
         slidingPrev = sliderLength * (-100)
     }
     slidingPrev = slidingPrev + 100
     transForm = `${(sliding + slidingPrev)}%`
     slides[0].style.marginLeft = `${transForm}`
+    console.log(slidingPrev)
 }
-arrowNext[0].onclick = function () {
+let onClickNext = arrowNext[0].onclick = function slideNext() {
     if (slidingPrev / (sliderLength - 1) === -100) {
         slidingPrev = 100
     }
     slidingPrev = slidingPrev - 100
     transForm = `${(sliding + slidingPrev)}%`
     slides[0].style.marginLeft = `${transForm}`
+    console.log(slidingPrev)
 }
 
-
+document.addEventListener('keydown' , function (event){
+    if (event.code === "ArrowRight") {
+        onClickNext()
+    } else if (event.code === "ArrowLeft") {
+        onClickPrev()
+    }
+})
