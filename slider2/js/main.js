@@ -19,6 +19,7 @@ function toggleClassSlider() {
         }
     }
 }
+
 //события при ресайзе, показ одного / двух слайдов со смещением
 slideSize = window.addEventListener('resize', function () {
     if (window.innerWidth >= 768) {
@@ -40,6 +41,7 @@ slideSize = window.addEventListener('resize', function () {
     sizeCalc()
 
 })
+
 // проверка условия для отображения двух слайдов
 function sizeCalc() {
     if (slides[0].classList.contains('slide-to-show--2')) {
@@ -48,6 +50,7 @@ function sizeCalc() {
         b = 0
     }
 }
+
 //просерка при загрузке страницы
 window.addEventListener('load', function () {
     console.log('load')
@@ -56,8 +59,7 @@ window.addEventListener('load', function () {
 })
 
 // слушатель на клик по стрелкам
-
-let onClickPrev = arrowPrev.onclick = function slidePrev() {
+function slidePrevFunc() {
     if (slidingPrev === (0)) {
         slidingPrev = (sliderLength * (-100)) + (100 * b)
     }
@@ -67,9 +69,9 @@ let onClickPrev = arrowPrev.onclick = function slidePrev() {
         slide.style.transform = `${transForm}`
     }
     slides[0].style.marginLeft = `${transForm}`
-
 }
-let onClickNext = arrowNext.onclick = function slideNext() {
+
+function slideNextFunc() {
     if (slidingPrev / (sliderLength - (1 + b)) <= -100) {
         slidingPrev = 100
     }
@@ -79,11 +81,42 @@ let onClickNext = arrowNext.onclick = function slideNext() {
         slide.style.transform = `${transForm}`
     }
 }
+
+arrowPrev.onclick = function slidePrev() {
+    slidePrevFunc()
+
+}
+arrowNext.onclick = function slideNext() {
+    slideNextFunc()
+
+}
+
 // слушатель на стрелки
 document.addEventListener('keydown', function (event) {
     if (event.code === "ArrowRight") {
-        onClickNext()
+        slideNextFunc()
     } else if (event.code === "ArrowLeft") {
-        onClickPrev()
+        slidePrevFunc()
     }
 })
+
+
+//автоплей
+function autoPlay() {
+    setInterval(slideNextFunc, 5000)
+}
+
+autoPlay()
+
+
+// прелоадер
+window.onload = function () {
+    document.body.classList.add('loaded_hiding');
+    window.setTimeout(function () {
+        document.body.classList.add('loaded');
+        document.body.classList.remove('loaded_hiding');
+    }, 500);
+}
+
+
+
