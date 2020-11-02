@@ -20,7 +20,7 @@
 .slider {
   width: 100%;
   height: 520px;
-  max-width: 1140px;
+  max-height: 100vh;
   padding-left: 0;
   padding-right: 0;
   margin: 0 auto;
@@ -112,5 +112,8 @@
       transition: 0.2s;
       content: '►';
       font-size: 36px; } }
+
+.slide-to-show--2 {
+  padding-left: 50%; }
 
 /*# sourceMappingURL=main.css.map */
