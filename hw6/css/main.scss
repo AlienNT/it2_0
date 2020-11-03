@@ -280,7 +280,10 @@ html {
   padding: 0 !important;
 
   a {
+    margin: 0;
+    height: 100%;
     width: 100%;
+    align-items: center;
     padding: 0 16px;
     display: -webkit-box;
     display: -ms-flexbox;
