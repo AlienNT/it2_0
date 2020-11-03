@@ -7,7 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(90deg, #4f328a 0%, #d02846 100%);
+  background: #fdfdfe;
   opacity: 1;
   visibility: visible;
   transition: 0.5s;

@@ -20,12 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57e5011f-af25-4159-9d53-4e2e2862239e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../hw7/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw7/css/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw7/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw7/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/preloader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/preloader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/css/.sass-cache/c64992a5ac4546be454ba6afae0755b4d639b999/main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/../hw5/css/.sass-cache/c64992a5ac4546be454ba6afae0755b4d639b999/main.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/css/.sass-cache/c64992a5ac4546be454ba6afae0755b4d639b999/preloader.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/../hw5/css/.sass-cache/c64992a5ac4546be454ba6afae0755b4d639b999/preloader.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../hw5/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../hw5/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../hw5/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/css/preloader.css" beforeDir="false" afterPath="$PROJECT_DIR$/../hw5/css/preloader.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/css/preloader.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../hw5/css/preloader.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/css/preloader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../hw5/css/preloader.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hw5/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/b3347ed66a8bc8c087d6dba45ad6f5be64fddd65/main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/b3347ed66a8bc8c087d6dba45ad6f5be64fddd65/main.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,15 +67,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../js/hw1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nickt\Desktop\IT_2.0\it2_0\hw6\js" />
+      <recent name="C:\Users\nickt\Desktop\IT_2.0\it2_0\hw6\css" />
       <recent name="C:\Users\nickt\Desktop\IT_2.0\it2_0\hw6" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\nickt\Desktop\IT_2.0\it2_0\hw6" />
     </key>
   </component>
@@ -92,6 +108,7 @@
       <workItem from="1602748843368" duration="16639000" />
       <workItem from="1603785414911" duration="489000" />
       <workItem from="1603974227555" duration="197000" />
+      <workItem from="1604432106422" duration="3655000" />
     </task>
     <servers />
   </component>
@@ -115,6 +132,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="844" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1602754468522" />
+    <state x="1183" y="274" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604433120860">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1183" y="274" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604433120860" />
     <state x="629" y="298" key="EditFileWatcherDialog" timestamp="1602357296780">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -175,10 +196,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="719" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602752277375" />
-    <state x="1147" y="227" width="585" height="592" key="find.popup" timestamp="1602760062341">
+    <state x="1161" y="204" width="585" height="592" key="find.popup" timestamp="1604432325417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1147" y="227" width="585" height="592" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602760062341" />
+    <state x="1161" y="204" width="585" height="592" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604432325417" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1602764702401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

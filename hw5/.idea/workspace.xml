@@ -20,14 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9dfc1e0-9b0d-406b-9b67-24d1750f06bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/preloader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/preloader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw6/css/preloader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw6/js/preloader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/.sass-cache/c64992a5ac4546be454ba6afae0755b4d639b999/main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/c64992a5ac4546be454ba6afae0755b4d639b999/main.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/c64992a5ac4546be454ba6afae0755b4d639b999/preloader.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/c64992a5ac4546be454ba6afae0755b4d639b999/preloader.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/preloader.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/preloader.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/preloader.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/preloader.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/preloader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/preloader.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/css/.sass-cache/b3347ed66a8bc8c087d6dba45ad6f5be64fddd65/main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/../hw6/css/.sass-cache/b3347ed66a8bc8c087d6dba45ad6f5be64fddd65/main.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../hw6/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../hw6/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../hw6/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hw6/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../hw6/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +72,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hw6" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -96,6 +108,7 @@
       <workItem from="1604220068201" duration="1289000" />
       <workItem from="1604231114013" duration="17000" />
       <workItem from="1604430930488" duration="604000" />
+      <workItem from="1604431721061" duration="1327000" />
     </task>
     <servers />
   </component>
@@ -119,10 +132,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="629" y="298" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602594475712" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1604231129894">
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1604432103274">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604231129894" />
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604432103274" />
     <state width="914" height="41" key="GridCell.Tab.0.bottom" timestamp="1602356722744">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

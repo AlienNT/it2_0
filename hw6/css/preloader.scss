@@ -7,15 +7,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(90deg, #4f328a 0%, #d02846 100%);
+  background: #fdfdfe;
   opacity: 1;
   visibility: visible;
   transition: 0.5s;
-  z-index: 9999; }
+  z-index: 9999;
+}
 
 .loaded {
   opacity: 0;
-  visibility: hidden; }
+  visibility: hidden;
+}
+
 
 .preloader {
   width: 75px;
@@ -24,8 +27,9 @@
   transform: rotate(45deg);
   display: flex;
   justify-content: center;
-  align-items: center; }
-  .preloader:after, .preloader:before {
+  align-items: center;
+
+  &:after, &:before {
     content: '';
     top: 0;
     left: 0;
@@ -33,51 +37,73 @@
     bottom: 0;
     margin: auto;
     position: absolute;
-    border-radius: 50%; }
-  .preloader:after {
+    border-radius: 50%;
+  }
+
+  &:after {
     width: 75%;
     height: 75%;
     animation: preloader-rotate 2s infinite ease;
     border: 5px solid #3f7fb0;
     border-top-color: transparent;
-    border-bottom-color: transparent; }
-  .preloader:before {
+    border-bottom-color: transparent;
+  }
+
+  &:before {
     content: '';
     animation: preloader-elements 2s infinite ease;
     width: 55%;
     height: 55%;
     border: 5px solid #d4d4d4;
     border-top-color: transparent;
-    border-bottom-color: transparent; }
+    border-bottom-color: transparent;
+  }
+}
 
 .preloader-element {
   border: 8px solid #8a8a8a;
   border-left-color: #d7d6d6;
   border-bottom-color: #b8b7b7;
   border-top-color: #a7a6a6;
-  animation: pulse 2s infinite ease; }
+  animation: pulse 2s infinite ease;
+
+}
 
 @keyframes pulse {
   0% {
-    transform: scale(1); }
+    transform: scale(1);
+  }
   50% {
     box-shadow: 0 0 10px 2px #45a8d6;
-    transform: scale(1.2); }
+    transform: scale(1.2);
+  }
   100% {
-    transform: scale(1); } }
+    transform: scale(1);
+  }
+}
+
 @keyframes preloader-elements {
   0% {
-    transform: rotate(0deg); }
+    transform: rotate(-0deg);
+  }
   50% {
-    transform: rotate(-180deg) scale(1.5); }
+    transform: rotate(-180deg) scale(1.5);
+  }
+
   100% {
-    transform: rotate(-360deg); } }
+    transform: rotate(-360deg);
+  }
+}
+
 @keyframes preloader-rotate {
   0% {
-    transform: rotate(0deg); }
+    transform: rotate(0deg);
+  }
   50% {
-    transform: rotate(180deg) scale(0.9); }
-  100% {
-    transform: rotate(360deg); } }
+    transform: rotate(180deg) scale(0.9);
+  }
 
-/*# sourceMappingURL=preloader.css.map */
+  100% {
+    transform: rotate(360deg);
+  }
+}

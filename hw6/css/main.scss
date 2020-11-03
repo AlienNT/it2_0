@@ -1,3 +1,4 @@
+@import "preloader.css";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&family=Open+Sans:ital,wght@0,400;0,600;1,300&display=swap');
 //font-family: 'Montserrat', sans-serif;
 //font-family: 'Open Sans', sans-serif;
@@ -7,6 +8,8 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   list-style: none;
+  outline: none;
+  text-decoration: none;
 }
 
 html {
@@ -710,6 +713,7 @@ html {
       background: rgba(234, 169, 58, 1);
       border-radius: 50px;
       margin-bottom: 40px;
+
     }
 
     .description {
@@ -1376,16 +1380,20 @@ html {
     background: url("../img/dotted_bg_form_section.png") no-repeat -10% bottom, -o-linear-gradient(#eef5fc, #eef5fc);
     background: url("../img/dotted_bg_form_section.png") no-repeat -10% bottom, linear-gradient(#eef5fc, #eef5fc);
     padding-top: 2px;
-    @media all and (max-width: 768px) {
+    @media all and  (max-width: 1199px){
       background: -webkit-gradient(linear, left top, left bottom, from(#eef5fc), to(#eef5fc));
       background: -o-linear-gradient(#eef5fc, #eef5fc);
       background: linear-gradient(#eef5fc, #eef5fc);
     }
+
   }
 
   .content_cont {
     background: url("../img/img_form_sect.png") no-repeat 2% bottom;
     max-width: 1260px;
+    @media all and  (max-width: 1199px){
+      background: none;
+    }
     @media all and (max-width: 768px) {
       background: none;
     }
@@ -1572,6 +1580,7 @@ html {
         height: 38px;
         line-height: 38px;
         max-width: 225px;
+        min-width: max-content;
         margin-left: auto;
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
@@ -1581,6 +1590,8 @@ html {
         border: none;
         background: #de9a25;
         border-radius: 30px;
+        outline: none;
+        cursor: pointer;
         @media all and (max-width: 768px) {
           font-size: 12px;
         }

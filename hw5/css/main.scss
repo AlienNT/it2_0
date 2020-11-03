@@ -1,6 +1,9 @@
 @import "slick.css";
 @import "fonts.css";
 @import "preloader.css";
+html {
+  scroll-behavior: smooth;
+}
 *, :before, :after {
   border: none;
   list-style: none;
@@ -1090,6 +1093,10 @@
         -webkit-transition: 0.1s;
         -o-transition: 0.1s;
         transition: 0.1s;
+        &:focus::placeholder {
+          color: transparent;
+
+        }
 
         &::-webkit-input-placeholder {
           font-weight: 600;
@@ -1124,6 +1131,7 @@
           color: #434343;
           font-size: 16px;
           padding-top: 15px;
+          transition: 0.1s;
         }
 
         &:focus {

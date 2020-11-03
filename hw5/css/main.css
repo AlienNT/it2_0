@@ -1,6 +1,9 @@
 @import url(slick.css);
 @import url(fonts.css);
 @import url(preloader.css);
+html {
+  scroll-behavior: smooth; }
+
 *, :before, :after {
   border: none;
   list-style: none;
@@ -855,6 +858,8 @@
         -webkit-transition: 0.1s;
         -o-transition: 0.1s;
         transition: 0.1s; }
+        .section-5 .feedback label > *:focus::placeholder {
+          color: transparent; }
         .section-5 .feedback label > *::-webkit-input-placeholder {
           font-weight: 600;
           color: #434343;
@@ -879,7 +884,8 @@
           font-weight: 600;
           color: #434343;
           font-size: 16px;
-          padding-top: 15px; }
+          padding-top: 15px;
+          transition: 0.1s; }
         .section-5 .feedback label > *:focus {
           outline: none;
           border-bottom: 1px solid #808080; }
