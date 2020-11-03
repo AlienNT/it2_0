@@ -665,8 +665,7 @@ html {
             font-size: 80px; } }
         @media all and (max-width: 1100px) {
           .content_section-3 .content_col-1 .decorated span {
-            visibility: hidden;
-            opacity: 0; } }
+            display: none; } }
     .content_section-3 .content_col-1 .title, .content_section-3 .content_col-1 .description {
       position: relative;
       z-index: 2;

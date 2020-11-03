@@ -880,8 +880,7 @@ html {
           font-size: 80px;
         }
         @media all and (max-width: 1100px) {
-          visibility: hidden;
-          opacity: 0;
+         display: none;
         }
 
       }
