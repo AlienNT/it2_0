@@ -20,7 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9dfc1e0-9b0d-406b-9b67-24d1750f06bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/preloader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/preloader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/c64992a5ac4546be454ba6afae0755b4d639b999/main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/c64992a5ac4546be454ba6afae0755b4d639b999/main.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,15 +60,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../js/hw4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\nickt\Desktop\IT_2.0\it2_0\hw5\css" />
       <recent name="C:\Users\nickt\Desktop\IT_2.0\it2_0\hw5\js" />
+      <recent name="C:\Users\nickt\Desktop\IT_2.0\it2_0\hw5\css" />
     </key>
   </component>
   <component name="RunManager">
@@ -88,6 +95,7 @@
       <workItem from="1602661627760" duration="22000" />
       <workItem from="1604220068201" duration="1289000" />
       <workItem from="1604231114013" duration="17000" />
+      <workItem from="1604430930488" duration="604000" />
     </task>
     <servers />
   </component>
