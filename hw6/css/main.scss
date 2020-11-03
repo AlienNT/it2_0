@@ -804,7 +804,7 @@ html {
 
   .target_row {
     margin-bottom: 2px;
-    padding-left: 15px;
+
 
     &:nth-of-type(2n-1) .content_col-2 {
       background: url("../img/dotted.png") no-repeat 125% center, -o-linear-gradient(#eef5fc, #eef5fc);
@@ -844,6 +844,7 @@ html {
   }
 
   .content_col-1 {
+    padding-left: 15px;
     border-bottom-color: #EEF5FC;
     position: relative;
 

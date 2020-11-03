@@ -601,8 +601,7 @@ html {
   .content_section-3 .title_row .h_line {
     margin-bottom: 20px; }
   .content_section-3 .target_row {
-    margin-bottom: 2px;
-    padding-left: 15px; }
+    margin-bottom: 2px; }
     .content_section-3 .target_row:nth-of-type(2n-1) .content_col-2 {
       background: url("../img/dotted.png") no-repeat 125% center, -o-linear-gradient(#eef5fc, #eef5fc);
       background: url("../img/dotted.png") no-repeat 125% center, -webkit-gradient(linear, left top, left bottom, from(#eef5fc), to(#eef5fc));
@@ -630,6 +629,7 @@ html {
       text-align: right;
       color: #636c72; }
   .content_section-3 .content_col-1 {
+    padding-left: 15px;
     border-bottom-color: #EEF5FC;
     position: relative; }
     .content_section-3 .content_col-1 .decorated {
