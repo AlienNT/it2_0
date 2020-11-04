@@ -3,7 +3,7 @@ let navFunc = $('.nav_col');
 $('.hamburger').on('click', function () {
     navFunc.toggleClass('nav_active')
     $(this).toggleClass('hamburger_active')
-    $('.authorization_col').toggleClass('authorization_active')
+    // $('.authorization_col').toggleClass('authorization_active')
     $('.header').toggleClass('header_active')
 });
 
