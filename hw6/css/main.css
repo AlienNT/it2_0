@@ -210,15 +210,14 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: #eef5fc;
-  border-top: 2px solid #d9e8f600;
-  border-bottom: 2px solid #D9E8F6;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0 !important; }
   .sing_in_col a {
+    background: #eef5fc;
+    border-top: 2px solid #d9e8f600;
+    border-bottom: 2px solid #D9E8F6;
     margin: 0;
-    height: 100%;
     width: 100%;
     align-items: center;
     padding: 0 16px;
