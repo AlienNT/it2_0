@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  outline: none;
+  resize: none;
+  border: none;
+  font-family: monospace;
+  font-size: 16px;
+  transition: 0.5s; }
+
+.wrapper {
+  background: #2b2b2c;
+  min-height: 100vh; }
+
+.container {
+  max-width: 400px;
+  padding: 15px;
+  margin: 0 auto; }
+
+.form {
+  flex-wrap: wrap;
+  display: flex; }
+  .form .cont {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px; }
+  .form input, .form textarea, .form button {
+    width: 100%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid transparent; }
+  .form .warning {
+    border: 1px solid red;
+    background: #fcd3d3; }
+    .form .warning::placeholder {
+      color: red; }
+  .form .inputs-cont {
+    width: 100%;
+    flex: 100%; }
+    .form .inputs-cont label {
+      width: 100%;
+      flex: 100%; }
+  .form .select-cont select {
+    display: block;
+    width: 100%; }
+  .form .checkbox-cont, .form .radio-cont, .form .select-cont {
+    width: 33.33%;
+    flex-wrap: nowrap;
+    padding: 0 15px; }
+    .form .checkbox-cont label, .form .radio-cont label, .form .select-cont label {
+      width: 100%;
+      height: 100%; }
+  .form .btn-cont {
+    width: 100%; }
+    .form .btn-cont .btn {
+      width: 100%; }
+
+/*# sourceMappingURL=main.css.map */
