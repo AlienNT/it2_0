@@ -2,17 +2,14 @@ $(function () {
     let form = $('.form'),
         checkBoxesCont = $('.checkbox-cont'),
         textInputs = $('.inputs-cont input , .inputs-cont textarea'),
-        radioInputCont = $('.radio-cont'),
-        checkRadioInputs = $('.radio-cont input[type=radio]:checked').length,
-        checkCount = $('input[type=checkbox]:checked').length
+        radioInputCont = $('.radio-cont')
     form.on('submit', function (event) {
         event.preventDefault()
+        let checkCount = $('input[type=checkbox]:checked').length
         checkCount > 3 || checkCount < 1 ?
-            checkBoxesCont.addClass('warning'):
-            checkBoxesCont.removeClass('warning')
-        checkRadioInputs < 1 ?
-            radioInputCont.addClass('warning'):
-            radioInputCont.removeClass('warning')
+            checkBoxesCont.addClass('warning'): checkBoxesCont.removeClass('warning')
+        let checkRadioInputs = $('.radio-cont input[type=radio]:checked').length
+        checkRadioInputs < 1 ? radioInputCont.addClass('warning'): radioInputCont.removeClass('warning')
         isEmpty()
         textInputs.on('input', function (){
             isEmpty()

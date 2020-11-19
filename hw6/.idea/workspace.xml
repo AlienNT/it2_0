@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57e5011f-af25-4159-9d53-4e2e2862239e" name="Default Changelist" comment="" />
+    <list default="true" id="57e5011f-af25-4159-9d53-4e2e2862239e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../hw5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../slider2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../js/cw8" />
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -91,6 +94,7 @@
       <workItem from="1604436423498" duration="9051000" />
       <workItem from="1604475985734" duration="379000" />
       <workItem from="1604485722601" duration="24000" />
+      <workItem from="1605016088038" duration="738000" />
     </task>
     <servers />
   </component>
@@ -122,10 +126,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="629" y="298" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602357296780" />
-    <state x="998" y="278" key="FileChooserDialogImpl" timestamp="1604485743593">
+    <state x="998" y="278" key="FileChooserDialogImpl" timestamp="1605021359793">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="998" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604485743593" />
+    <state x="998" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605021359793" />
     <state width="1380" height="137" key="GridCell.Tab.0.bottom" timestamp="1602783529609">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
