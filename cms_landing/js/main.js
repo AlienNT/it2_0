@@ -1,17 +1,5 @@
 'use strict'
-window.onresize = () => {
-    hideLinkContent()
 
-}
-window.onload = () => {
-    hideLinkContent()
-    toggleNav()
-    toggleArrowTop()
-
-}
-window.onscroll = () => {
-    toggleArrowTop()
-}
 let navigation  = document.querySelector('.nav'),
     links       = navigation.querySelectorAll('a')
 navigation.onclick = (event) => {
@@ -81,4 +69,14 @@ function toggleArrowTop() {
         arrow.style.cssText = 'opacity: 0; visibility:hidden;' :
         arrow.style.cssText = ''
 
+}
+window.onresize = () => {
+    hideLinkContent()
+
+}
+hideLinkContent()
+toggleNav()
+toggleArrowTop()
+window.onscroll = () => {
+    toggleArrowTop()
 }
