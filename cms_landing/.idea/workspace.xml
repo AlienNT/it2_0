@@ -20,12 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="872391c4-7096-4d6d-895a-54198b34a8cb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.sass-cache/469b72f4af22ac844cf35f6b9f9a916e0e8d62bd/preloader.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/469b72f4af22ac844cf35f6b9f9a916e0e8d62bd/preloader.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/preloader.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/preloader.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/preloader.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/preloader.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/preloader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/preloader.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +75,7 @@
       <updated>1607170909808</updated>
       <workItem from="1607170912669" duration="1741000" />
       <workItem from="1607334991204" duration="53873000" />
-      <workItem from="1607452605672" duration="4645000" />
+      <workItem from="1607452605672" duration="5369000" />
     </task>
     <servers />
   </component>
