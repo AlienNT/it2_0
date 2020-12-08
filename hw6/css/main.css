@@ -122,14 +122,18 @@ html {
     align-items: center;
     height: auto;
     border-right: 1px solid rgba(60, 74, 84, 0.5); }
+    .nav_col li:before {
+      border-top: 2px solid rgba(0, 0, 0, 0);
+      border-bottom: 2px solid #de9a25;
+      opacity: 0; }
+    .nav_col li:hover:before {
+      opacity: 1; }
     .nav_col li:last-of-type {
       border-right: none; }
       .nav_col li:last-of-type span {
         display: table-caption; }
     .nav_col li a {
       padding: 2px 0;
-      border-top: 2px solid rgba(0, 0, 0, 0);
-      border-bottom: 2px solid rgba(0, 0, 0, 0);
       height: 100%;
       width: 100%;
       line-height: 17px;
@@ -151,10 +155,8 @@ html {
         min-width: -webkit-max-content;
         min-width: -moz-max-content;
         min-width: max-content; }
-      .nav_col li a:hover {
-        border-bottom: 2px solid #de9a25; }
-  .nav_col .active a {
-    border-bottom: 2px solid #de9a25; }
+  .nav_col .active li:before {
+    opacity: 1; }
 
 .authorization_col {
   -webkit-transition: 0.2s;

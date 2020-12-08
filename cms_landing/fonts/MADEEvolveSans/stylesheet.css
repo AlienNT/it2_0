@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'MADE Evolve Sans';
+    src: url('MADEEvolveSans.eot');
+    src: local('MADE Evolve Sans'), local('MADEEvolveSans'),
+        url('MADEEvolveSans.eot?#iefix') format('embedded-opentype'),
+        url('MADEEvolveSans.woff2') format('woff2'),
+        url('MADEEvolveSans.woff') format('woff'),
+        url('MADEEvolveSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MADE Evolve Sans EVO';
+    src: url('MADEEvolveSansEVO.eot');
+    src: local('MADE Evolve Sans EVO'), local('MADEEvolveSansEVO'),
+        url('MADEEvolveSansEVO.eot?#iefix') format('embedded-opentype'),
+        url('MADEEvolveSansEVO.woff2') format('woff2'),
+        url('MADEEvolveSansEVO.woff') format('woff'),
+        url('MADEEvolveSansEVO.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MADE Evolve Sans EVO';
+    src: url('MADEEvolveSansEVO-Thin.eot');
+    src: local('MADE Evolve Sans EVO Thin'), local('MADEEvolveSansEVO-Thin'),
+        url('MADEEvolveSansEVO-Thin.eot?#iefix') format('embedded-opentype'),
+        url('MADEEvolveSansEVO-Thin.woff2') format('woff2'),
+        url('MADEEvolveSansEVO-Thin.woff') format('woff'),
+        url('MADEEvolveSansEVO-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MADE Evolve Sans';
+    src: url('MADEEvolveSans-Medium.eot');
+    src: local('MADE Evolve Sans Medium'), local('MADEEvolveSans-Medium'),
+        url('MADEEvolveSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('MADEEvolveSans-Medium.woff2') format('woff2'),
+        url('MADEEvolveSans-Medium.woff') format('woff'),
+        url('MADEEvolveSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MADE Evolve Sans';
+    src: url('MADEEvolveSans-Bold.eot');
+    src: local('MADE Evolve Sans Bold'), local('MADEEvolveSans-Bold'),
+        url('MADEEvolveSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('MADEEvolveSans-Bold.woff2') format('woff2'),
+        url('MADEEvolveSans-Bold.woff') format('woff'),
+        url('MADEEvolveSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MADE Evolve Sans';
+    src: url('MADEEvolveSans-Light.eot');
+    src: local('MADE Evolve Sans Light'), local('MADEEvolveSans-Light'),
+        url('MADEEvolveSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('MADEEvolveSans-Light.woff2') format('woff2'),
+        url('MADEEvolveSans-Light.woff') format('woff'),
+        url('MADEEvolveSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MADE Evolve Sans EVO';
+    src: url('MADEEvolveSansEVO-Medium.eot');
+    src: local('MADE Evolve Sans EVO Medium'), local('MADEEvolveSansEVO-Medium'),
+        url('MADEEvolveSansEVO-Medium.eot?#iefix') format('embedded-opentype'),
+        url('MADEEvolveSansEVO-Medium.woff2') format('woff2'),
+        url('MADEEvolveSansEVO-Medium.woff') format('woff'),
+        url('MADEEvolveSansEVO-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MADE Evolve Sans';
+    src: url('MADEEvolveSans-Thin.eot');
+    src: local('MADE Evolve Sans Thin'), local('MADEEvolveSans-Thin'),
+        url('MADEEvolveSans-Thin.eot?#iefix') format('embedded-opentype'),
+        url('MADEEvolveSans-Thin.woff2') format('woff2'),
+        url('MADEEvolveSans-Thin.woff') format('woff'),
+        url('MADEEvolveSans-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MADE Evolve Sans EVO';
+    src: url('MADEEvolveSansEVO-Light.eot');
+    src: local('MADE Evolve Sans EVO Light'), local('MADEEvolveSansEVO-Light'),
+        url('MADEEvolveSansEVO-Light.eot?#iefix') format('embedded-opentype'),
+        url('MADEEvolveSansEVO-Light.woff2') format('woff2'),
+        url('MADEEvolveSansEVO-Light.woff') format('woff'),
+        url('MADEEvolveSansEVO-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MADE Evolve Sans EVO';
+    src: url('MADEEvolveSansEVO-Bold.eot');
+    src: local('MADE Evolve Sans EVO Bold'), local('MADEEvolveSansEVO-Bold'),
+        url('MADEEvolveSansEVO-Bold.eot?#iefix') format('embedded-opentype'),
+        url('MADEEvolveSansEVO-Bold.woff2') format('woff2'),
+        url('MADEEvolveSansEVO-Bold.woff') format('woff'),
+        url('MADEEvolveSansEVO-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+

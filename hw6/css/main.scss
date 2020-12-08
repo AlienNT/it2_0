@@ -153,6 +153,19 @@ html {
     height: auto;
     border-right: 1px solid rgba(60, 74, 84, 0.5);
 
+    &:before {
+      border-top: 2px solid rgba(0, 0, 0, 0);
+      border-bottom: 2px solid #de9a25;
+      opacity: 0;
+    }
+
+    &:hover {
+      &:before {
+        opacity: 1;
+      }
+
+    }
+
     &:last-of-type {
       border-right: none;
 
@@ -163,8 +176,6 @@ html {
 
     a {
       padding: 2px 0;
-      border-top: 2px solid rgba(0, 0, 0, 0);
-      border-bottom: 2px solid rgba(0, 0, 0, 0);
       height: 100%;
       width: 100%;
       line-height: 17px;
@@ -190,16 +201,12 @@ html {
       }
 
 
-      &:hover {
-
-        border-bottom: 2px solid #de9a25;
-      }
     }
   }
 
   .active {
-    a {
-      border-bottom: 2px solid #de9a25;
+    li:before {
+      opacity: 1;
 
     }
   }
@@ -884,7 +891,7 @@ html {
           font-size: 80px;
         }
         @media all and (max-width: 1100px) {
-         display: none;
+          display: none;
         }
 
       }
@@ -1289,7 +1296,7 @@ html {
           font-family: 'Montserrat', sans-serif;
           color: #ffffff;
           font-size: 24px;
-          @media all and (max-width: 1100px){
+          @media all and (max-width: 1100px) {
             font-size: 20px;
 
           }
@@ -1422,9 +1429,9 @@ html {
   padding-top: 19px;
 
   .wrapper {
-    background: url("../img/dotted_bg_form_section.png") no-repeat -10% bottom,-webkit-gradient(linear, left top, left bottom, from(#eef5fc), to(#eef5fc));
-    background: url("../img/dotted_bg_form_section.png") no-repeat -10% bottom,-o-linear-gradient(#eef5fc, #eef5fc);
-    background: url("../img/dotted_bg_form_section.png") no-repeat -10% bottom,linear-gradient(#eef5fc, #eef5fc);
+    background: url("../img/dotted_bg_form_section.png") no-repeat -10% bottom, -webkit-gradient(linear, left top, left bottom, from(#eef5fc), to(#eef5fc));
+    background: url("../img/dotted_bg_form_section.png") no-repeat -10% bottom, -o-linear-gradient(#eef5fc, #eef5fc);
+    background: url("../img/dotted_bg_form_section.png") no-repeat -10% bottom, linear-gradient(#eef5fc, #eef5fc);
     padding-top: 2px;
     @media all and (max-width: 1199px) {
       padding: 15px 0 0 0;
