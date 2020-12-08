@@ -10,7 +10,6 @@
   background: #ffffff;
   opacity: 1;
   visibility: visible;
-  transition: 0.5s;
   z-index: 999999; }
 
 .loaded {
