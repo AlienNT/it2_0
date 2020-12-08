@@ -1,11 +1,24 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .preloader-cont {
   width: 100vw;
   height: 100vh;
   position: fixed;
   top: 0;
   left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   background: #ffffff;
   opacity: 1;
@@ -20,15 +33,27 @@
   width: 50px;
   height: 50px;
   background: url("../img/logo.png") no-repeat center/contain;
-  animation: preloader-animation 2s infinite ease; }
+  -webkit-animation: preloader-animation 2s infinite ease alternate;
+  animation: preloader-animation 2s infinite ease alternate; }
+
+@-webkit-keyframes preloader-animation {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0); }
+  50% {
+    -webkit-transform: translate(100%);
+    transform: translate(100%); }
+  100% {
+    -webkit-transform: translate(-100%);
+    transform: translate(-100%); } }
 
 @keyframes preloader-animation {
-  0%,100% {
-    transform: rotate(0);
-    transform-origin: center; }
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0); }
   50% {
-    transform: rotate(180deg);
-    transform-origin: center; }
-   }
-
-/*# sourceMappingURL=preloader.css.map */
+    -webkit-transform: translate(100%);
+    transform: translate(100%); }
+  100% {
+    -webkit-transform: translate(-100%);
+    transform: translate(-100%); } }

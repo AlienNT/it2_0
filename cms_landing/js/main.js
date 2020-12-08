@@ -44,7 +44,7 @@ function hideLinkContent() {
 function toggleNav() {
     let hamburger   = document.querySelector('.hamburger'),
         nav         = document.querySelector('.nav')
-    window.onclick  = function (e){
+    document.querySelector('header').onclick  = function (e){
         let target  = e.target
         if (target.closest('.hamburger')) {
             if (hamburger.classList.contains('hamburger_active')) {
