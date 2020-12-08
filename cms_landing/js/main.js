@@ -2,7 +2,7 @@
 
 let navigation  = document.querySelector('.nav'),
     links       = navigation.querySelectorAll('a')
-navigation.onclick = (event) => {
+navigation.onclick = function (event) {
     let target = event.target
     for (let link of links) {
         link.classList.remove('active')
@@ -10,7 +10,7 @@ navigation.onclick = (event) => {
     target.classList.add('active')
 }
 let contactForm = document.querySelector('.contact_form')
-contactForm.onsubmit = (e) => {
+contactForm.onsubmit = function (e)  {
     e.preventDefault()
     let inputs = contactForm.querySelectorAll('label > *')
     for (let input of inputs) {
@@ -44,7 +44,7 @@ function hideLinkContent() {
 function toggleNav() {
     let hamburger   = document.querySelector('.hamburger'),
         nav         = document.querySelector('.nav')
-    window.onclick  = (e) => {
+    window.onclick  = function (e){
         let target  = e.target
         if (target.closest('.hamburger')) {
             if (hamburger.classList.contains('hamburger_active')) {
@@ -70,13 +70,13 @@ function toggleArrowTop() {
         arrow.style.cssText = ''
 
 }
-window.onresize = () => {
+window.onresize = function () {
     hideLinkContent()
 
 }
 hideLinkContent()
 toggleNav()
 toggleArrowTop()
-window.onscroll = () => {
+window.onscroll = function (){
     toggleArrowTop()
 }

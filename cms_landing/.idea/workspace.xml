@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="872391c4-7096-4d6d-895a-54198b34a8cb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="872391c4-7096-4d6d-895a-54198b34a8cb" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +73,7 @@
       <updated>1607170909808</updated>
       <workItem from="1607170912669" duration="1741000" />
       <workItem from="1607334991204" duration="53873000" />
-      <workItem from="1607452605672" duration="2571000" />
+      <workItem from="1607452605672" duration="3028000" />
     </task>
     <servers />
   </component>
@@ -163,6 +161,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="926" height="32" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607428157696" />
+    <state x="1142" y="76" width="585" height="888" key="find.popup" timestamp="1607455631899">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1142" y="76" width="585" height="888" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607455631899" />
     <state x="1098" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1607427564386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
